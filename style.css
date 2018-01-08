@@ -1,0 +1,48 @@
+.content {
+  width: 33%;
+  margin: 0 auto;
+  margin-top: 5%;
+  border: 1px solid #000000;
+  height: 500px;
+}
+
+body {
+  font-family: 'Arial';
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Trebuchet MS';
+}
+
+.error {
+  color: #FF6347;
+}
+
+.success {
+  color: #3F9956;
+}
+
+form {
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 0.8em;
+}
+
+#upload, input {
+  width: 100%;
+}
+
+hr {
+  margin: 3% auto;
+}
+
+/** Specific to admin page **/
+
+#logout {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
