@@ -22,7 +22,6 @@ function is_file_valid($file) {
 
 /**
  * Sanitize string, getting rid of unwanted slashes and removing HTML
- * From Lecture 17 - PHP HTML (Slide 37)
  */
 function sanitizeString($string) {
     $string = stripslashes($string);
@@ -33,7 +32,6 @@ function sanitizeString($string) {
 
 /**
  * Sanitize string, preventing SQL injection and getting rid of unwanted slashes and removing HTML
- * From Lecture 17 - PHP HTML (Slide 37)
  */
 function sanitizeMySQL($conn, $string) {
     $string = $conn->real_escape_string($string);
