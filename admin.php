@@ -220,7 +220,6 @@ function add_admin($conn, $un, $pw) {
 
 /**
  * Destroys a session and its data
- * From Lecture 19 - PHP - Sessions (Slide 13)
  */
 function destroy_session_and_data() {
     // Erase session data
